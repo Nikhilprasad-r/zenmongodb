@@ -51,7 +51,7 @@ db.company_drives.aggregate([
 
 db.codekata.aggregate([
   {
-    $match: { user_id: "your_user_id" },
+    $match: { user_id: 2 },
   },
   {
     $group: {
